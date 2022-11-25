@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.navItem {
+  margin: 0 20px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: rgb(227, 224, 224);
+  }
+
+  &:first-child {
+    color: #3c64b1;
+  }
+}

@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  width: 350px;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 80px;
+
+  div:first-of-type {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+
+  div:nth-of-type(2) {
+    font-size: 14px;
+    text-align: center;
+  }
+}
